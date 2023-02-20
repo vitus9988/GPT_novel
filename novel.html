@@ -23,6 +23,8 @@
             integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
             crossorigin="anonymous"
         ></script>
+
+        
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">GPT Novel</a>
@@ -55,6 +57,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="novel.html">생성결과</a>
                         </li>
+                        <li class="nav_item">
+                            <a class="nav-link" href="workboard.html">게시판</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -82,9 +87,10 @@
             >
             </textarea>
         </div>
-
+        
         <script>
-            var textAreaPushJsondata = () => {
+            
+            /*var textAreaPushJsondata = () => {
                 const jsonStrData = localStorage.getItem("jsonData");
                 localStorage.removeItem("jsonData");
                 const jsonData = JSON.parse(jsonStrData);
@@ -93,6 +99,9 @@
                 $(".mainpage").html(myvar);
             };
             textAreaPushJsondata();
+            */
+        
+            
         </script>
     </body>
 </html>
