@@ -1,2 +1,2 @@
 # GPT_novel
-GPT_novel page learn
+GPT_novel page learn by vanilla javascript
