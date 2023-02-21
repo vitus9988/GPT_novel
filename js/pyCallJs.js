@@ -11,8 +11,4 @@ function chatgptpycall(){
         
     })};
 
-chatgptpycall();
-
-
-
-
+chatgptpycall();z

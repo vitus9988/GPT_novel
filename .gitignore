@@ -1,2 +1,3 @@
 .vscode
 secure.py
+__pycache__

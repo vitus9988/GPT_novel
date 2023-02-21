@@ -18,8 +18,8 @@ def makeNovelApi(promp):
 
 
 if __name__ == '__main__':
-    #makeNovelApi('what is 1+1?')
-    makeNovelApi(sys.argv[1])
+    makeNovelApi('write 300 word novel, main theme: detective, sub theme: horor, language: korean')
+    #makeNovelApi(sys.argv[1])
     
 
 
