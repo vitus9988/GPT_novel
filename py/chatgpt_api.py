@@ -10,6 +10,7 @@ def makeNovelApi(promp):
     })
 
     prev_text = ""
+    
     for data in chatbot.ask(promp):
         message = data["message"][len(prev_text) :]
         print(message, end="", flush=True)
@@ -18,7 +19,7 @@ def makeNovelApi(promp):
 
 
 if __name__ == '__main__':
-    makeNovelApi('write 300 word novel, main theme: detective, sub theme: horor, language: korean')
+    makeNovelApi('write 50 word novel, main theme: detective, sub theme: horor, language: korean')
     #makeNovelApi(sys.argv[1])
     
 
