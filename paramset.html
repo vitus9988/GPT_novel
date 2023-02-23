@@ -171,12 +171,12 @@
     </form>
 
     <script>
-        var mainhandleOnChange = (e) => {
+        let mainhandleOnChange = (e) => {
             console.log(e.value);
         };
 
-        var getparameterfunc = (q) => {
-            var jsonData = [];
+        let getparameterfunc = (q) => {
+            let jsonData = [];
             let Ntheme = $("select[name=NovelTheme]").val();
 
             if (Ntheme == null) {
@@ -185,7 +185,7 @@
             }
 
             jsonData.push(Ntheme);
-            var params = document.querySelectorAll(".model_parameters");
+            let params = document.querySelectorAll(".model_parameters");
             params.forEach((c) => {
                 jsonData.push(c.value);
             });

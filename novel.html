@@ -76,7 +76,7 @@
         </div>
 
         <script>
-            var textAreaPushJsondata = () => {
+            let textAreaPushJsondata = () => {
                 const jsonStrData = localStorage.getItem("jsonData");
                 localStorage.removeItem("jsonData");
                 const jsonData = JSON.parse(jsonStrData);
@@ -88,5 +88,6 @@
             };
             textAreaPushJsondata();
         </script>
+        <script src="./js/pyCallJs.js"></script>
     </body>
 </html>
